@@ -6,7 +6,6 @@ def f_prime(x: float) -> float:
     return 5*x**4 - 9*x**2 - 5
 
 # Método de Newton
-# Método de Newton
 def newton_method(x0: float, tol: float = 1e-6, max_iter: int = 100) -> tuple[float, int]:
     xk = x0
     for i in range(max_iter):
